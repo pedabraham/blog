@@ -16,7 +16,7 @@ Then I started writing the HTML, I opened Atom, and described a navbar with a ti
 Ok, now was CSS time, first of all, I described all the layout, In this case, I used a Grid. In every major section, or block that goes in the grid, I used bright primary colors to make great contrast between sections, so I could find, errors in an easy way, and this time this was not the exception, It took me around three tries to get the layout right. 
 
 
-![layout](/images/posts/cap23feb2.png)
+![layout](/images/posts/cap23feb2.jpg)
 
 
 Then I proceeded to the post, and to get some images to use, I went to my own Instagram to get Instagram-worthy pictures. I was not expecting that, get my own photos from Instagram could be difficult, I could not just right-click on the image and then download it. I had to go to the network utility in chrome and take the URL of the image, that the site was using. Still easier than digging into my photo library to get an Instagram-worthy image, though.
@@ -36,7 +36,7 @@ Later I progressed to the navbar, defined the style of the “logo”, choosing 
 To get to the end of this challenge. I defined the style of the suggestions section. Here I just put the details related to my profile. And with this, I conclude the challenge.
 
 
-![instagram clone](/images/posts/cap23feb1.png)
+![instagram clone](/images/posts/cap23feb1.jpg)
 
 
 The next day, I started seeing how this could be better, which parts didn’t move at scrolling, and how I could put better constraints at the navbar. This quick clone was far from perfect, but it was interesting to see what I could do **in 2 hours**.
