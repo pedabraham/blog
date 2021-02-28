@@ -1,0 +1,318 @@
+.skip-link{
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000000;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+.skill_button {
+  background-color: white;
+  border-style: none;
+  width: 100px;
+  transition-duration: 0.2s;
+}
+
+.skill_button:focus{
+  outline: none
+}
+
+.skill_name {
+  display: grid;
+  text-align: left;
+  font-size: 15px;
+  font-style: normal;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.skill_line {
+  background-color: var(--lineColor2);
+  height: 3px;
+}
+
+.skill_rejected {
+  opacity: 0.4;
+}
+
+.skill_rejected:hover {
+  opacity: 1;
+}
+
+.skill_rejected:focus{
+  opacity: 0.4;
+}
+
+.resume{
+  display: grid;
+  grid-template-columns: 16% auto 16%;
+  margin-bottom: 2cm;
+  /*grid-template-rows: 80px calc(100vh - 80px) ;*/
+}
+
+.header{
+  margin-left: 1cm;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Helvetica Neue', sans-serif;
+  padding-top: 20px;
+}
+
+.grid-resume_header{
+  grid-column: 1/3;
+  grid-row: 1/2;
+
+}
+
+.resume_feed{
+  grid-column: 2/3;
+  grid-row:2/3;
+  margin: 30px auto auto auto;
+  overflow: scroll;
+}
+
+.resume_filters{
+  grid-column: 1/2;
+  margin-top:2.5cm;
+  margin-left: 1cm;
+}
+
+.language{
+  grid-column: 2/3;
+  margin: auto;
+  font-size: 13px;
+}
+
+.post{
+  max-width: 550px;
+  margin: 70px auto 20px auto;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.post_graphics{
+    margin: auto;
+    display: block;
+}
+
+.pgrid{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.post_title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.post_place{
+  font-style: italic;
+  font-weight: 300;
+}
+
+.PostLine{
+  height: 1px;
+  background-color: black;
+  width: 480px;
+  margin: 20px auto 20px auto;
+}
+
+.ResumeLine{
+  width: 230px;
+  height: 5px;
+  background-color: var(--lineColor);
+}
+
+.resumeFinalDraw{
+  width: 600px;
+  margin: 40px auto auto auto;
+  display: block;
+}
+
+.noColor{
+  background-color: white;
+}
+
+.inOutFeed-enter {
+  max-height: 0px;
+  opacity: 0.01;
+}
+
+.inOutFeed-enter.inOutFeed-enter-active {
+  opacity: 1;
+  max-height: 300px;
+  transition: max-height 400ms ease-in, opacity 600ms ease-in;
+}
+
+.inOutFeed-leave {
+  max-height: 300px;
+  opacity: 1;
+}
+
+.inOutFeed-leave.inOutFeed-leave-active {
+  max-height: 0px;
+  opacity: 0.001;
+  transition: 500ms ease-in;
+
+}
+
+.lan-button{
+  background-color: inherit;
+  border-style: none;
+  font-family: 'Helvetica Neue', sans-serif;
+  opacity: 1;
+  color: inherit;
+}
+
+.falseB{
+  opacity: 0.5;
+}
+
+.picture{
+  display: block;
+  width: 8rem;
+  margin-left: auto;
+  margin: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+.aboutMe{
+  margin: auto;
+  max-width: 710px;
+  display:grid;
+  grid-template-columns: 210px  auto;
+}
+
+.abstract{
+  margin: 1cm;
+  font-size: 15px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  display: block;
+}
+
+.abstract::first-letter{
+font-size: 2rem;
+-webkit-initial-letter: 3;
+}
+
+.gridTitle{
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.mail{
+  font-family: 'Helvetica Neue', sans-serif;
+  color: inherit;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.mail a{
+  color: inherit;
+}
+
+.greyW{
+  /*background: linear-gradient(to bottom right, #3e4244, #1274AA)*/;
+  background-color: #1d1d1f;
+  color: #FFFF;
+}
+
+@media only screen and (max-width: 650px) {
+  .aboutMe{
+    grid-template-columns: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .resume{
+    grid-template-columns: 100%;
+  }
+
+  .resume_feed{
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .post{
+    max-width: 90%;
+  }
+
+  .resumeFinalDraw{
+    max-width: 80%;
+  }
+
+  .PostLine{
+    width: 80%;
+    max-width: 480px;
+  }
+
+  .techStack{
+    display: grid;
+    grid-template-columns: 104px 104px 104px;
+  }
+
+  .resume_filters{
+    margin: 1cm auto 0 auto;
+  }
+
+  .picture{
+    max-width: 350px;
+  }
+
+  .header{
+    margin-left: 15px;
+  }
+
+  .language{
+    margin-top: 20px;
+  }
+
+  .pgrid{
+    grid-template-columns: 100%;
+  }
+
+  .pgrid .picture{
+    grid-row: 2/3;
+  }
+}
+
+@media (hover: none) {
+  .skill_rejected:hover {
+    opacity: 0.4;
+  }
+}
+
+@media only screen and (max-width:1000px) and (min-width:651px){
+  .resume{
+    grid-template-columns: 160px auto;
+  }
+
+  .resumeFinalDraw{
+    width: 90%;
+  }
+
+  .PostLine{
+    width: 80%;
+    max-width: 480px;
+  }
+
+  .post{
+    width: 90%;
+    max-width: 550px;
+  }
+
+  .header{
+    margin-left: 0.5cm;
+  }
+
+  .resume_filters {
+    margin-left: 0.5cm;
+  }
+}
