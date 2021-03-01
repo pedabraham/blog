@@ -25,8 +25,10 @@ export default function Home({ allPostsData }) {
       <p>Hi 👋! I'm a software developer. I’m someone who does PSS, problem-solving as a service, using tech especially web tools, passionate about the internet, and amazed by computer vision.</p>
       </section>
       <section className={utilStyles.headingMd}>
-      <Link href="/resume">
-        <a className={utilStyles.lightText}>Resume</a>
+      <Link href="/portfolio">
+        <a className={utilStyles.redText}>
+        <h3>💼 Portfolio</h3>
+        </a>
       </Link>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

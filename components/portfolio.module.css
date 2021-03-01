@@ -1,0 +1,14 @@
+.card_layout{
+  display: grid;
+  grid-template-columns: 14rem auto;
+  margin-top: 20px;
+}
+
+.side_image{
+  border-radius: 22px;
+  object-fit: cover;
+  width: 13rem;
+  height: 10rem;
+  margin: auto;
+
+}
