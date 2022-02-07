@@ -23,7 +23,7 @@ Then I proceeded to the post, and to get some images to use, I went to my own In
 
 
 When It was time to described the post, I first defined the width and the object-fit of the image, then I advanced to the publisher section, to put my profile picture and I used flex to center the image and the name, I set the paddings, and put some border-radius on the image of the profile.
- 
+
 Then in the info sections, I just put the timestamp and not the whole grid of icons, just because searching and selecting a kind of similar set of icons, would take more time. Next, I defined the weight and color of the legends.
 
 

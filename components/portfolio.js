@@ -6,6 +6,13 @@ import Link from 'next/link'
 
 const projects = [
   {
+    "name":"Wordle Clone",
+    "place":"My home",
+    "image":"/images/portfolio/wordle.png",
+    "repo": "https://github.com/pedabraham/word_guess",
+    "prod": "https://word-guess.vercel.app"
+  },
+  {
     "name":"Hangman",
     "place":"My home",
     "image":"/images/portfolio/hangman.jpg",
@@ -21,7 +28,7 @@ const projects = [
   {
     "name":"e-CV",
     "place":"My home",
-    "prod":"https://www.pedromoreno.xyz/",
+    "prod":"https://web.d2i683mwhfmzsx.amplifyapp.com",
     "repo":"https://github.com/pedabraham/reactResume",
     "image":"/images/portfolio/cv.jpg"
   },
