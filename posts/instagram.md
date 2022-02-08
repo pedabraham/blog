@@ -1,6 +1,6 @@
 ---
 title: 'Cloning Instagram'
-date: '2020-02-23'
+date: '2021-02-23'
 ---
 
 I was walking around the house when I was thinking of a way to test my CSS skills. Then I thought about making an Instagram clone, and here I’m going to show you my process.
