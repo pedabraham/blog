@@ -26,7 +26,7 @@ Sruvey:
 ![layout](/images/posts/survey28mar.png)
 
 The telegram bot:
-![layout](/images/posts/telebot.png)
+![layout](/images/posts/telebot.jpeg)
 
 This little and fun project had his challenges, but it was very rewarding seeing every part working together.
 
